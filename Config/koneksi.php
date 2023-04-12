@@ -1,4 +1,4 @@
 <?php
-$konek=mysqli_connect("localhost","root","1Sampai1!","db_eoq");
+$konek=mysqli_connect("localhost","root","","db_eoq");
 
 ?>
