@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -12,18 +12,18 @@
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="assets/js/bootstrap-datepicker/css/datepicker.css" />
-    <link rel="stylesheet" type="text/css" href="assets/js/bootstrap-daterangepicker/daterangepicker.css" />
-        
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="assets/js/bootstrap-datepicker/css/datepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/js/bootstrap-daterangepicker/daterangepicker.css"/>
+
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/style-responsive.css" rel="stylesheet">
-	    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-        
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/style-responsive.css" rel="stylesheet">
@@ -32,107 +32,100 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
-  <section id="container" >
-      <!-- **********************************************************************************************************************************************************
-      TOP BAR CONTENT & NOTIFICATIONS
-      *********************************************************************************************************************************************************** -->
-      <!--header start-->
-      <header class="header black-bg">
-              <div class="sidebar-toggle-box">
-                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
-              </div>
-            <!--logo start-->
-            <a href="index.html" class="logo"><b>Sistem Informasi Pengelolaan Pengadaan Obat Balai Kesehatan</b></a>
-            <!--logo end-->
-            <div class="nav notify-row" id="top_menu">
-                <!--  notification start -->
-                <ul class="nav top-menu">
-                    <!-- settings start -->
-                    <li class="dropdown">
-                        
-                            <i class=""></i>
-                         
-                            </li>
-                        </ul>
-                    </li>
-                    <!-- inbox dropdown end -->
-                </ul>
-                <!--  notification end -->
-            </div>
-            <div class="top-menu">
-            	<ul class="nav pull-right top-menu">
-                    <li><a class="logout" href="logout.php">Logout</a></li>
-            	</ul>
-            </div>
-        </header>
-      <!--header end-->
-      
-      <!-- **********************************************************************************************************************************************************
-      MAIN SIDEBAR MENU
-      *********************************************************************************************************************************************************** -->
-      <!--sidebar start-->
-      <aside>
-          <div id="sidebar"  class="nav-collapse ">
-              <!-- sidebar menu start-->
-              <ul class="sidebar-menu" id="nav-accordion">
-              
-            
-              	  	
-                  <li class="mt">
-                      <a href="hal_admin.php">
-                          <i class="fa fa-dashboard"></i>
-                          <span>Menu</span>
-                      </a>
-                  </li>
+<section id="container">
+    <!-- **********************************************************************************************************************************************************
+    TOP BAR CONTENT & NOTIFICATIONS
+    *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg">
+        <div class="sidebar-toggle-box">
+            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+        </div>
+        <!--logo start-->
+        <a href="index.html" class="logo"><b>Sistem Informasi Pengelolaan Pengadaan Obat Balai Kesehatan</b></a>
+        <!--logo end-->
+        <div class="nav notify-row" id="top_menu">
+            <!--  notification start -->
+            <ul class="nav top-menu">
+                <!-- settings start -->
+                <li class="dropdown">
+                    <i class=""></i>
+                </li>
+            </ul>
+            </li>
+            <!-- inbox dropdown end -->
+            </ul>
+            <!--  notification end -->
+        </div>
+        <div class="top-menu">
+            <ul class="nav pull-right top-menu">
+                <li><a class="logout" href="logout.php">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--header end-->
 
-                  <li class="sub-menu">
-                   <a href="obat.php">
-                          <i class="fa fa-cube"></i>
-                          <span>Persediaan Data Obat</span>
-                      </a>
-                     
-                  </li>
-                 
-				      <li class="sub-menu">
-                      <a href="proses_eoq.php" >
-                          <i class="fa fa-circle-o"></i>
-                          <span>Pengajuan Obat</span>
-                      </a>
-                     
-                  </li>
-                  </li>
-				      <li class="sub-menu">
-                       <a href="laporan_eoq.php" target="_blank"> 
-                          <i class="fa fa-fax"></i>
-                          <span>Laporan Analisa Eoq</span>
-                      </a>
-                     
-                  </li>
-				    </li>
-				      <li class="sub-menu">
-                       <a href="pembelian.php">
-                          <i class="fa fa-cubes"></i>
-                          <span>Kelola Pembelian</span>
-                      </a>
-                     
-                  </li>
-				    </li>
-				      <li class="sub-menu">
-                       <a href="laporan_pem.php" target="_blank"> 
-                          <i class="fa fa-database"></i>
-                          <span>Laporan Pembelian</span>
-                      </a>
-                     
-                  </li>
-
-              </ul>
-              <!-- sidebar menu end-->
-          </div>
-      </aside>
+    <!-- **********************************************************************************************************************************************************
+    MAIN SIDEBAR MENU
+    *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+        <div id="sidebar" class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu" id="nav-accordion">
+                <li class="mt">
+                    <a href="hal_admin.php">
+                        <i class="fa fa-dashboard"></i>
+                        <span>Menu</span>
+                    </a>
+                </li>
+                <li class="sub-menu">
+                    <a href="user.php">
+                        <i class="fa fa-user"></i>
+                        <span>Data Pengguna</span>
+                    </a>
+                </li>
+                <li class="sub-menu">
+                    <a href="obat.php">
+                        <i class="fa fa-cube"></i>
+                        <span>Persediaan Data Obat</span>
+                    </a>
+                </li>
+                <li class="sub-menu">
+                    <a href="proses_eoq.php">
+                        <i class="fa fa-circle-o"></i>
+                        <span>Pengajuan Obat</span>
+                    </a>
+                </li>
+                </li>
+                <li class="sub-menu">
+                    <a href="laporan_eoq.php" target="_blank">
+                        <i class="fa fa-fax"></i>
+                        <span>Laporan Analisa Eoq</span>
+                    </a>
+                </li>
+                </li>
+                <li class="sub-menu">
+                    <a href="pembelian.php">
+                        <i class="fa fa-cubes"></i>
+                        <span>Kelola Pembelian</span>
+                    </a>
+                </li>
+                </li>
+                <li class="sub-menu">
+                    <a href="laporan_pem.php" target="_blank">
+                        <i class="fa fa-database"></i>
+                        <span>Laporan Pembelian</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- sidebar menu end-->
+        </div>
+    </aside>
